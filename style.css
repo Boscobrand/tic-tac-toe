@@ -38,9 +38,28 @@ body {
     padding: 5px;
     border: black;
     border-style: solid;
+    cursor:pointer;
     
 }
 
 .reset {
     margin: 10px;
+}
+
+.player_X {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    padding: 5px;
+    border: black;
+    border-style: solid;
+}
+
+.player_0 {
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    padding: 5px;
+    border: black;
+    border-style: solid;
 }
