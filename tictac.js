@@ -10,14 +10,14 @@ window.addEventListener('DOMContentLoaded', () => {
 
 const boxbutton = document.getElementById('box');
 
-boxbutton.addEventListener('click', function onClick(event) {
+boxbutton.addEventListener('click', => () {
     console.log(event.target);
     event.target.style.backgroundColor = 'red';
 
 
 })
     
-    
+ resetButton.addEventListener('click', )   
     
     
     
